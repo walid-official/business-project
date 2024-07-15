@@ -1,0 +1,38 @@
+@media screen and (max-width: 992px) {
+    .hero-container{
+        display: block;
+    }
+    .hero-image{
+        text-align: center;
+        margin: 50px auto;
+    }
+}
+
+@media screen and (max-width: 776px){
+    #bar-icon{
+        display: flex;
+    }
+    ul.list-container{
+        display: none;
+    }
+    .logo-area{
+        width: 100%;
+    }
+    #bar-icon{
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 567px) {
+    
+    .hero-content{
+        margin-left: 20px;
+    }
+    .hero-content p{
+        width: 100%;
+    }
+    .hero-content h1{
+        font-size: 3.2rem;
+        line-height: 80px;
+        margin: 30px 0;
+    }
+}
