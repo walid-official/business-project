@@ -120,3 +120,56 @@ ul.list-container li a{
     flex-direction: column;
     justify-content: center;
 }
+
+/* Header section End */
+
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.about-section .about-title{
+    margin: 100px 0;
+    text-align: center;
+}
+.about-title #agency-title{
+    font-size: 1rem;
+    color: #fff;
+    background-color: #000;
+    padding: 15px;
+    border-radius: 20px;
+}
+.about-title h3{
+    font-size: 4rem;
+    margin-top: 30px;
+    font-weight: 500;
+    line-height: normal;
+}
+.about-title h3 #i-text{
+    font-style: italic;
+    font-weight: 800;
+}
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.about-content {
+    display: grid;
+    align-content: center;
+    gap: 30px;
+    margin-left: 30px;
+}
+.about-content h3{
+    font-size: 1.5rem;
+}
+.about-content span{
+    font-size: 6rem;
+}
+.about-content p{
+    font-size: 1.2rem;
+    color:rgb(32, 40, 45);
+}
