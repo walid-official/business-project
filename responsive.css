@@ -1,3 +1,12 @@
+@media screen and (max-width: 1200px) {
+    .feature-container{
+        grid-template-columns: 1fr;
+    }
+    .feature-content{
+        grid-row: 1;
+        margin-bottom: 50px;
+    }
+}
 @media screen and (max-width: 992px) {
     .hero-container{
         display: block;
@@ -45,5 +54,11 @@
     }
     .about-image{
         grid-template-columns: 1fr;
+    }
+    .feature-card{
+        grid-template-columns: 1fr;
+    }
+    .feature-content h3{
+        width: 100%;
     }
 }
